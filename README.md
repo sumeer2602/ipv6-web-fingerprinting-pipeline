@@ -2,7 +2,7 @@
 
 This repository contains the data collection and processing pipeline for our work on IPv6 Website Fingerprinting accepted to PETs 2026:
 
-> **"IPv6 Web Fingerprinting"**
+> **"More Space, Less Privacy? Measuring the Effectiveness of IP-based Website Fingerprinting in IPv6"**
 
 The pipeline replicates the full measurement study: crawling websites, building domain- and IP-based fingerprints, computing entropy, and evaluating fingerprinting accuracy.
 
