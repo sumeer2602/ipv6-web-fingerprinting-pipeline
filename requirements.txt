@@ -1,0 +1,9 @@
+# Python dependencies for the IPv6 Web Fingerprinting pipeline
+#
+# Install with:   pip install -r requirements.txt
+# Python version: 3.10+
+
+pandas>=1.5.0
+numpy>=1.23.0
+pytricia>=1.0.2        # prefix-trie for GeoLite2 IP→ASN lookup (Stage 6)
+tqdm>=4.65.0           # optional: progress bars (used in some scripts)
