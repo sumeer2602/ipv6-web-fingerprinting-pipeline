@@ -4,9 +4,7 @@ This repository contains the data collection and processing pipeline for our wor
 
 > **"IPv6 Web Fingerprinting"**
 
-The pipeline replicates the full measurement study: crawling websites with two browsers, building domain- and IP-based fingerprints, computing entropy, and evaluating fingerprinting accuracy.
-
-For figure/table reproduction (artifact evaluation), see the companion artifact notebook repository instead.
+The pipeline replicates the full measurement study: crawling websites, building domain- and IP-based fingerprints, computing entropy, and evaluating fingerprinting accuracy.
 
 ---
 
@@ -15,8 +13,8 @@ For figure/table reproduction (artifact evaluation), see the companion artifact 
 The study measures whether IPv6 addresses leak more precise location information than IPv4 addresses when used for web fingerprinting. We crawl ~550,000 top websites twice (enrollment + test), build IP-based fingerprints, and test re-identification accuracy.
 
 Key distinction — **dual-stack status**:
-- **Dual-stack Incomplete** (`dual_stack='yes'`): site has IPv4-only third-party resources → fingerprint mixes IPv4 and IPv6
-- **Dual-stack Complete** (`dual_stack='no'`): all resources reachable over IPv6 → pure IPv6 fingerprint
+- **Dual-stack Incomplete**: site has IPv4-only third-party resources → fingerprint mixes IPv4 and IPv6
+- **Dual-stack Complete**: all resources reachable over IPv6 → pure IPv6 fingerprint
 
 ---
 
@@ -434,8 +432,8 @@ Same format as IP fingerprint — captured during the test crawl.
 If you use this pipeline, please cite:
 
 ```bibtex
-@inproceedings{ipv6fingerprinting2026,
-  title     = {IPv6 Web Fingerprinting},
+@inproceedings{_______________________,
+  title     = {More Space, Less Privacy?},
   booktitle = {Proceedings on Privacy Enhancing Technologies (PETs)},
   year      = {2026}
 }
